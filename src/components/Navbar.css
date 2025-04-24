@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 10px 20px;
+    background-color: #000; 
+    border-bottom: 1px solid #333; 
+}
+
+.navbar-logo .apple-logo {
+    height: 24px;
+    margin-right: 20px; 
+    filter: brightness(0) invert(1);
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-links li a:hover {
+    color: #0071e3;
+}
