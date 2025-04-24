@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.products-container {
+  padding: 20px;
+}
+
+.products-list {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  gap: 20px; /* Add spacing between products */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 220px;
+  background-color: #f9f9f9;
+  flex-shrink: 0; /* Prevent shrinking of cards */
+}
+
+.product-card img {
+  border-radius: 4px;
+}
+
+.product-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0071e3;
+  text-decoration: none;
+}
+
+.product-card a:hover {
+  text-decoration: underline;
+}
